@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Expert Group</title>
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Referencement-->
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top " id="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#">DigitalExpertGroup</a>
+              <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Qui sommes nous ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Témoignages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                 
+                </ul>
+                
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+   
+        
+
+    <section class="banner" id="scrollspyHeading1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="cover">
+                             <div class="item-header">
+                                 <h2>Consulting Firm</h2>
+                             </div>
+                             <div class="item-desc">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, autem eum. Voluptatibus molestiae dolorum animi aut.</p>
+                             </div>
+                             <div class="item-btn">
+                                 <button class="btn">Read More</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div>
+        </div>
+    </section>
+
+<div class="tt" id="scrollspyHeading2"></div>
+
+
+
+    <script>
+        window.onscroll = function () {
+
+if (document.documentElement.scrollTop > 150) {
+    /*au scrool*/
+    document.getElementById("navbar").style.background = "#00000042";
+    document.getElementById("navbar-toggler").style.background = "#fff";
+    document.getElementById("navbar").style.padding = "10px 0px";
+}
+else {
+    /*sans scrool*/
+    document.getElementById("navbar").style.background = "transparent";
+    document.getElementById("navbar-toggler").style.background = "transparent";
+    document.getElementById("navbar").style.padding = "20px 0px";
+    
+}
+
+
+}
+    </script>
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
