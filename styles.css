@@ -106,9 +106,16 @@ header{
 
 /***********responsive*************/
 @media (max-width:960px){
-    .navbar{
+    .navbar-collapse{
         text-align: center;
+        
         align-items: center;
+        height: 100vh;
+        
+    }
+    .nav-item a{
+        margin: 25px;
+        margin-top: 10vh;
     }
     .banner{
         height: 100vh;
