@@ -12,7 +12,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Libre+Baskerville&family=Merienda&display=swap" rel="stylesheet"> 
+
     <!--Referencement-->
+
+
 
 </head>
 <body>
@@ -26,13 +37,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#about">Qui sommes nous ?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">NOS Services</a>
+                    <a class="nav-link" href="#our_services">NOS Services</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#testimonial">Témoignages</a>
@@ -52,10 +63,10 @@
    
         
 
-    <section class="banner" id="scrollspyHeading1">
+    <section class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="item">
                         <div class="cover">
                              <div class="item-header">
@@ -63,7 +74,7 @@
                              </div>
                              <div class="item-desc">
                                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, autem eum. Voluptatibus molestiae dolorum animi aut.</p>
-                             </div> <br><br>
+                             </div> <br>
                              <div class="item-btn">
                                  <button class="btn">Read More</button>
                              </div>
@@ -77,7 +88,7 @@
         </div>
     </section>
 
-    <section class="about justify-content-center">
+    <section class="about justify-content-center" id="about">
      
         <div class="container">
           <div class="about-title">
@@ -87,14 +98,12 @@
           <div class="row">
             <div class="col-lg-5" >
                 <div class="about-img">
-                    <img src="assets/img/about.png" alt="Expert Digital Group about image" data-aos="fade-left" data-aos-offset="200"
-                    data-aos-delay="50"
+                    <img src="assets/img/about.png" alt="Expert Digital Group about image" data-aos="fade-up" data-aos-offset="200"
                     data-aos-duration="1000">
                 </div>
             </div>
             <div class="col-md-7">
               <div class="about-text" data-aos="fade-up"data-aos-offset="200"
-              data-aos-delay="50"
               data-aos-duration="1000">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem, suscipit numquam fuga debitis vel veritatis temporibus placeat nostrum, pariatur recusandae fugiat? Aliquam aut est id quibusdam ea fugiat quod? <br>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores esse expedita doloribus nostrum quidem obcaecati nesciunt culpa natus dignissimos illo. Corrupti quo aliquam expedita magnam earum, quibusdam vitae consectetur quasi!
@@ -105,7 +114,7 @@
         </div>
     </section>
 
-    <section class="ours_services">
+    <section class="ours_services" id="our_services">
         <div class="container">
             <div class="row">
                 <div class="col-12 section-intro">
@@ -116,7 +125,6 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="service custom-card " data-aos="fade-up"data-aos-offset="200"
-                    data-aos-delay="50"
                     data-aos-duration="1000">
                         <div class="icon-box">
                           <i class="fas fa-bullhorn"></i>
@@ -129,7 +137,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                   <div class="service custom-card" data-aos="fade-up"data-aos-offset="200"
-                  data-aos-delay="50"
                   data-aos-duration="1000"
                   
                   >
@@ -142,8 +149,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <div class="service custom-card"data-aos="fade-up"data-aos-offset="200"
-                  data-aos-delay="50"
+                  <div class="service custom-card"data-aos="fade-up"data-aos-offset="200" 
                   data-aos-duration="1000">
                       <div class="icon-box">
                         <i class="fas fa-file-word"></i>
@@ -170,9 +176,10 @@
 </script>
 
     <script>
+      document.getElementById("navbar-toggler").active
         window.onscroll = function () {
 
-if (document.documentElement.scrollTop > 150) {
+if (document.documentElement.scrollTop > 80) {
     /*au scrool*/
     document.getElementById("navbar").style.background = "#212529";
     document.getElementById("navbar-toggler").style.background = "#fff";

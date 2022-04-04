@@ -87,10 +87,12 @@ header{
     height: 100vh
 }
 .banner .item {
-    height: 90vh;
     display: flex;
-    align-items: center;
-    position: relative;
+align-items: center;
+position: absolute;
+bottom: 30px;
+margin:1px 5px;
+min-height: 50vh;
 }
 .banner .item .cover{
     background-color: rgba(255, 255, 255, 0.363);
@@ -98,11 +100,18 @@ header{
     padding: 20px;
 }
 .banner .item-header h2{
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 32px;
     color: #0ec46f !important;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 40px;
 }
 .banner .item-desc p{
     color: #fff;
+    font-family: 'Anek Latin', sans-serif;
+    line-height:25px;
+    font-size: 18px;
+
 }
 .banner .item-btn .btn{
     background: #0ec46f;
@@ -123,6 +132,7 @@ header{
 }
 .about-text p{
     font-weight: 500;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /***ours section*/
@@ -132,7 +142,9 @@ header{
     text-align: center;
     margin: 50px 0px;
     min-height: 100vh;
-    
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .icon-bar{
     width: 80px;
@@ -160,6 +172,11 @@ header{
     margin: 30px 1px;
     transition: all 0.4s ease;
     background-color: darkslategray;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .custom-card:hover{
     box-shadow: -1px 4px 10px 1px;
@@ -189,23 +206,30 @@ header{
     }
     .navbar-collapse{
         text-align: center;
-        
         align-items: center;
         height: 100vh;
-        
     }
     .nav-item a{
-        margin: 10px;
-        margin-top: 7.5vh;
+        margin-top: 10vh;
     }
-    .banner{
-        height: 100vh;
-    }
+    
 
     /*about*/
     .about-text{
         margin: 30px 0px;
         font-size: 18px;
+        width: 100%;
     }
-    
+    .about-text p{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:325px){
+    .navbar-brand{
+        font-size: 22px !important;
+    }
 }
