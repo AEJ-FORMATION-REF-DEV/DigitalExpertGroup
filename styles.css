@@ -87,8 +87,7 @@ header{
     height: 100vh
 }
 .banner .item {
-    height: 60vh;
-    top: 0;
+    height: 90vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -119,11 +118,16 @@ header{
 .about-title{
     margin: 30px 2px;
 }
+.about-text p{
+    font-weight: 500;
+}
 /***ours section*/
 .ours_services{
     background: darkslategrey;
-    padding: 44px 24px;
+    padding: 20px;
     text-align: center;
+    margin: 50px 0px;
+    min-height: 100vh;
     
 }
 .icon-bar{
@@ -142,7 +146,11 @@ header{
     margin: 30px 0px;
     color: #0ec46f;
 }
+.icon-box i{
+    font-size: 32px;
+}
 .custom-card{
+    align-items: center;
     color:#fff;
     padding: 15px;
     margin: 30px 1px;
@@ -159,8 +167,9 @@ header{
     font-weight: 600;
     
 }
-.section-intro > .title{
+.section-intro .title{
     color: #fff !important;
+    text-align: left;
 }
 
 
