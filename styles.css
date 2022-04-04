@@ -109,6 +109,9 @@ header{
     color: #fff;
     border-radius: 5px;
 }
+.banner .item-btn .btn:hover{
+    background: #0ec46f7a;
+}
 
 
 /*****about******/
@@ -121,6 +124,7 @@ header{
 .about-text p{
     font-weight: 500;
 }
+
 /***ours section*/
 .ours_services{
     background: darkslategrey;
@@ -180,16 +184,19 @@ header{
 
 /***********responsive*************/
 @media (max-width:960px){
+    .icon-box i{
+        font-size: 21px;
+    }
     .navbar-collapse{
         text-align: center;
         
         align-items: center;
-        height: 50vh;
+        height: 100vh;
         
     }
     .nav-item a{
         margin: 10px;
-        margin-top: 5vh;
+        margin-top: 7.5vh;
     }
     .banner{
         height: 100vh;
