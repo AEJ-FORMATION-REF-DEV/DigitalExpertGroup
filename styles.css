@@ -137,6 +137,7 @@ min-height: 50vh;
     margin: 30px 2px;
 }
 .about-text p{
+    width: 100%;
     font-weight: 500;
     font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -203,6 +204,7 @@ min-height: 50vh;
 
 .tt{
     height: 100vh;
+    padding: 50px;
 }
 
 /***********responsive*************/
