@@ -293,6 +293,9 @@ input,textarea{
     }
 }
 @media (max-width:960px){
+    .form{
+        margin: 1px auto;
+    }
     .details{
         text-align: center;
     }
