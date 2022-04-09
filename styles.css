@@ -78,7 +78,7 @@ header{
 }
 
 .banner{
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background:linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.218)),
     url('assets/img/banner.jpg');
     background-position:center;
     background-size: cover;
@@ -142,6 +142,7 @@ margin:1px 5px;
 align-items: center;
 justify-content: center;
 display: flex;
+font-size: 20px;
 
    
     font-weight: 100;
