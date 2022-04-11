@@ -273,6 +273,28 @@ input,textarea{
     background-color: rgba(255, 255, 255, 0.473) !important;
 }
 
+/*testimonial*/
+.testimonial{
+    background-color: bisque;
+    height: 100vh;
+}
+.big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 23vh 150px;
+}
+.big-box .img-box img{
+    height: 300px;
+    width: 300px;
+}
+.text-box p{
+    margin-left: 50px;
+}
+
 
 
 .tt{
@@ -293,6 +315,15 @@ input,textarea{
     }
 }
 @media (max-width:960px){
+    .big-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 150px;
+    }
+    .text-box{
+        margin-top: 50px;
+    }
     .form{
         margin: 1px auto;
     }
