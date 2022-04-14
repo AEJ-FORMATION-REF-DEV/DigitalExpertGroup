@@ -12,6 +12,7 @@ html{
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
+    text-align: left;
 }
 #soulignage{
     width: 100px;
