@@ -13,11 +13,13 @@ html{
     font-size: 22px;
     text-transform: uppercase;
     text-align: left;
+    
 }
 #soulignage{
     width: 100px;
     background-color: #0ec46f;
     height: 4px;
+    margin-bottom: 50px;
 }
 
 /********Header********/
@@ -184,6 +186,13 @@ header{
 .testimonial .text-box p{
     margin-left: 50px;
 }
+.carousel-indicators button{
+    background-color: #0ec46f !important;
+}
+.carousel-indicators .active{
+    background-color: #0e1532 !important;
+}
+
 /*****contact form******/
 .contact-form{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -264,6 +273,13 @@ header{
 }
 
 /***********responsive*************/
+@media (max-width:992px){
+
+    .testimonial .big-box .img-box img{
+        height: 200px !important;
+    }
+}
+
 @media (max-width:992px){
 
      /*******Testimonial********/
