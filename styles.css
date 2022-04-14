@@ -181,7 +181,9 @@ header{
     margin: 21px 150px;
 }
 .testimonial .big-box .img-box img{
-    height: 300px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 .testimonial .text-box p{
     margin-left: 50px;
@@ -276,7 +278,7 @@ header{
 @media (max-width:992px){
 
     .testimonial .big-box .img-box img{
-        height: 200px !important;
+        margin: 1px auto;
     }
 }
 
