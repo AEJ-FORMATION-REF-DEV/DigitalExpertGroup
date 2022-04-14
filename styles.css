@@ -281,12 +281,17 @@ header{
 
     /*******Header******/
     .navbar-collapse{
-        text-align: center;
-        align-items: center;
         height: 100vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .nav-item a{
-        margin-top: 8vh;
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .nav-item{
+        margin: 50px;
     }
 
     /*********Banner******/
