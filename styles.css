@@ -209,10 +209,12 @@ font-size: 20px;
 
 /*****contact form******/
 .contact-form{
-    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('assets/img/banner.jpg');
     background-size: cover;
+}
+.contact_us{
+    min-height: 100vh;
 }
 .contact-form .head-tags{
     color: #fff;
@@ -228,27 +230,7 @@ font-size: 20px;
     align-items: center;
     justify-content: center;
 }
-.detail{
-    padding: 10px;
-    cursor: pointer;
-}
-.detail span{
-    color: #fff;
-}
-.detail .bx{
-    font-size: 30px;
-color: #0ec46f;
-padding: 5px;
-}
-.social-icons i{
-    color: #fff;
-    padding: 16px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.social-icons i:hover{
-    background-color: #0ec46f7a;
-}
+
 .contact-about{
     font-size: 17px;
     color: #fff !important;
@@ -257,11 +239,7 @@ padding: 5px;
     text-decoration: none;
 }
 /*form*/
-.forms{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .form{
     background-color: rgba(255, 255, 255, 0.473);
     border-radius: 15px;
@@ -269,10 +247,34 @@ padding: 5px;
     width: 100%;
     
 }
+.form button{
+    background-color: #0ec46f;
+    border: none;
+    font-weight: bold;
+}
+.form button:hover{
+    background-color: #0ec46f7b;
+}
 input,textarea{
     background-color: rgba(255, 255, 255, 0.473) !important;
 }
 
+
+.fa{
+    color: #0ec46f;
+    font-size: 28px;
+    margin-right: 10px;
+
+}
+.detail span{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.detail span a{
+    text-decoration: none;
+    color: #fff !important;
+}
 /*testimonial*/
 .testimonial{
     background-color: bisque;
@@ -350,6 +352,9 @@ input,textarea{
     }
     .social-icons{
         margin-bottom: 20px;
+    }
+    .carousel-indicators{
+        display: none;
     }
 }
 @media (max-width:960px){
