@@ -279,23 +279,49 @@ input,textarea{
     height: 100vh;
 }
 .big-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #fff;
     border-radius: 10px;
     padding: 25px;
-    margin: 23vh 150px;
+    margin: 2px 1px;
+    width: 100%;
+   
+    overflow: hidden;
+    text-align: center;
 }
 .big-box .img-box img{
     height: 300px;
-    width: 300px;
+    width: 100%;
 }
 .text-box p{
     margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.carousel-control-prev{
+    display: block;
+    bottom: 0;
 }
 
 
+/************partenaire***********/
+.partenaire .item{display: flex;align-items: center;}
+
+.partenaire .item img {width: 270px;height: 200px;margin: 10px auto;}
+
+/*******testimonial**********/
+.testimonial .carousel{margin-top: 20px;}
+
+.carousel-item{background: #0e1532;border-radius: 8px;height: 270px;}
+
+.carousel-item span{color: #555554;}
+
+.carousel-item .media-body{margin-top: 1.5rem;}
+
+.carousel-item #text{text-align: center;color: #fff;font-size: 18px;margin: 10px ;}
+
+.overview{color: #dfcc03;}
 
 .tt{
     height: 100vh;
@@ -319,7 +345,7 @@ input,textarea{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 20px 150px;
+       
     }
     .text-box{
         margin-top: 50px;
@@ -357,6 +383,10 @@ input,textarea{
         text-align: center;
         width: 100%;
         margin-top: 50px;
+    }
+    .item{
+        display: flex;
+        justify-content: center;
     }
 
 }
