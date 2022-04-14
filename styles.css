@@ -276,7 +276,7 @@ input,textarea{
 /*testimonial*/
 .testimonial{
     background-color: bisque;
-    height: 100vh;
+    min-height: 100vh;
 }
 .big-box {
     background: #fff;
@@ -322,6 +322,18 @@ input,textarea{
 .carousel-item #text{text-align: center;color: #fff;font-size: 18px;margin: 10px ;}
 
 .overview{color: #dfcc03;}
+
+
+/***actzalites*/
+.actualites .item{
+    background-color: #0e1532;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    margin: 15px auto;
+}
+
 
 .tt{
     height: 100vh;
@@ -384,10 +396,7 @@ input,textarea{
         width: 100%;
         margin-top: 50px;
     }
-    .item{
-        display: flex;
-        justify-content: center;
-    }
+    
 
 }
 
